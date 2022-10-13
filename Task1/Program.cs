@@ -6,12 +6,12 @@
 */
 
 void GetResult(int num1, int num2)
- {
-   int result =  1;
-   for (int i = 1; i <= num2; i++)
-   {
-    result = result * num1;
-   }
+{
+    int result = 1;
+    for (int i = 1; i <= num2; i++)
+    {
+        result = result * num1;
+    }
     Console.WriteLine($"{num1}, {num2} -> {result}");
- }
- GetResult(3,5);
+}
+GetResult(3, 5);
