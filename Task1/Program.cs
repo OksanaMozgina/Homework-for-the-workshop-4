@@ -7,11 +7,11 @@
 
 void GetResult(int num1, int num2)
  {
-   int result =  num1;
-   for (int i = 1; i < num2; i++)
+   int result =  1;
+   for (int i = 1; i <= num2; i++)
    {
     result = result * num1;
    }
     Console.WriteLine($"{num1}, {num2} -> {result}");
  }
- GetResult(2,4);
+ GetResult(3,5);
